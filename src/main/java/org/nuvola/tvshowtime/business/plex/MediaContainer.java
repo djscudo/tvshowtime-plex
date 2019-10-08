@@ -30,7 +30,7 @@ public class MediaContainer {
     private Integer size;
     private String identifier;
     @JsonProperty("Metadata")
-    private List<MetaData> metaData;
+    private List<Video> m_metaData;
     @JsonProperty("Account")
     private List<Account> account = new ArrayList<>();
 
@@ -42,12 +42,12 @@ public class MediaContainer {
         this.size = size;
     }
 
-    public List<MetaData> getMetaData() {
-        return metaData;
+    public List<Video> getMetaData() {
+        return m_metaData;
     }
 
-    public void setMetaData(List<MetaData> metaData) {
-        this.metaData = metaData;
+    public void setMetaData(List<Video> metaData) {
+        this.m_metaData = metaData;
     }
 
     public List<Account> getAccount() {

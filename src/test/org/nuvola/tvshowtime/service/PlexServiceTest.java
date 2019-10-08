@@ -1,18 +1,18 @@
-package org.nuvola.tvshowtime;
+package org.nuvola.tvshowtime.service;
 
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.*;
+import org.nuvola.tvshowtime.TestBase;
 import org.nuvola.tvshowtime.config.PMSConfig;
+import org.nuvola.tvshowtime.exceptions.PlexNotAvailableException;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import org.springframework.test.web.client.MockRestServiceServer;
-import org.springframework.web.client.HttpServerErrorException;
 import org.springframework.web.client.RestTemplate;
 
-import java.io.IOException;
 import java.util.*;
 
 import static junit.framework.TestCase.assertEquals;
@@ -45,7 +45,7 @@ public class PlexServiceTest extends TestBase {
     }
 
     @Test
-    public void getUsersFromPlex() throws IOException {
+    public void updateUsersObject() throws PlexNotAvailableException {
 
         String accounts = readFile("accounts.json");
 
@@ -54,7 +54,7 @@ public class PlexServiceTest extends TestBase {
         mockServer.expect(requestTo("http://serveripport/accounts?X-Plex-Token=TokenPlex"))
                 .andRespond(withSuccess(accounts, MediaType.APPLICATION_JSON));
 
-        m_plexService.getUsersInPlex();
+        m_plexService.updateUserObject();
 
         assertThat("Users is not empty", !m_plexService.getUsers().isEmpty());
         assertNotNull("User admin should exist", m_plexService.getUsers().get("admin"));
@@ -65,8 +65,8 @@ public class PlexServiceTest extends TestBase {
         assertThat("User SecondUser Map has key value 3", m_plexService.getUsers().get("SecondUser").equals(3L));
     }
 
-    @Test(expected = HttpServerErrorException.class)
-    public void getUsersFromPlexFailed() throws IOException {
+    @Test(expected = PlexNotAvailableException.class)
+    public void getUsersFromPlexFailed() throws PlexNotAvailableException {
         when(m_pmsConfig.getPath()).thenReturn("http://serveripport");
         when(m_pmsConfig.getToken()).thenReturn("TokenPlex");
         mockServer.expect(requestTo("http://serveripport/accounts?X-Plex-Token=TokenPlex"))
@@ -76,7 +76,7 @@ public class PlexServiceTest extends TestBase {
     }
 
     @Test
-    public void getWatchedEpisodesForToday() throws IOException {
+    public void getWatchedEpisodesForToday() throws PlexNotAvailableException {
         Set<String> expectation = new HashSet<>(
                 Arrays.asList("Marvel's Agent Carter - S1E6",
                         "Marvel's Agent Carter - S1E8",
@@ -103,7 +103,7 @@ public class PlexServiceTest extends TestBase {
     }
 
     @Test
-    public void getWatchedEpisodesWithMarkAll() throws IOException {
+    public void getWatchedEpisodesWithMarkAll() throws PlexNotAvailableException {
         Set<String> expectation = new HashSet<>(
                 Arrays.asList(
                         "Marvel's Agent Carter - S1E1",
@@ -134,7 +134,7 @@ public class PlexServiceTest extends TestBase {
     }
 
     @Test
-    public void getWatchedEpisodesForTodayForAdminUser() throws IOException {
+    public void getWatchedEpisodesForTodayForAdminUser() throws PlexNotAvailableException {
         Set<String> expectation = new HashSet<>(
                 Arrays.asList("Marvel's Agent Carter - S1E6",
                         "Marvel's Agent Carter - S1E8")
@@ -161,7 +161,7 @@ public class PlexServiceTest extends TestBase {
     }
 
     @Test
-    public void getWatchedEpisodesForAdminUserWithMarkAll() throws IOException {
+    public void getWatchedEpisodesForAdminUserWithMarkAll() throws PlexNotAvailableException {
         Set<String> expectation = new HashSet<>(
                 Arrays.asList(
                         "Marvel's Agent Carter - S1E1",
@@ -191,7 +191,7 @@ public class PlexServiceTest extends TestBase {
     }
 
     @Test
-    public void getWatchedEpisodesForTodayForDifferentUser() throws IOException {
+    public void getWatchedEpisodesForTodayForDifferentUser() throws PlexNotAvailableException {
         Set<String> expectation = new HashSet<>(
                 Collections.singletonList("Marvel's Agent Carter - S1E7")
         );

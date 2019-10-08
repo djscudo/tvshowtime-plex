@@ -1,0 +1,67 @@
+{
+  "event": "media.pause",
+  "user": true,
+  "owner": true,
+  "Account": {
+    "id": 1,
+    "thumb": "https://plex.tv/users/1283461273478123/avatar?c=1234144441",
+    "title": "admin"
+  },
+  "Server": {
+    "title": "ServerPLEX",
+    "uuid": "23874218374b8cabac8b9c76fa75jfca76cfb234"
+  },
+  "Player": {
+    "local": true,
+    "publicAddress": "",
+    "title": "Chrome",
+    "uuid": "bj8oknu48hrz98w2fhey33yg"
+  },
+  "Metadata": {
+    "librarySectionType": "show",
+    "ratingKey": "5638",
+    "key": "/library/metadata/5638",
+    "parentRatingKey": "5623",
+    "grandparentRatingKey": "5622",
+    "guid": "com.plexapp.agents.thetvdb://73762/16/2?lang=it",
+    "parentGuid": "com.plexapp.agents.thetvdb://73762/16?lang=it",
+    "grandparentGuid": "com.plexapp.agents.thetvdb://73762?lang=it",
+    "librarySectionTitle": "Serie TV",
+    "librarySectionID": 1,
+    "librarySectionKey": "/library/sections/1",
+    "type": "episode",
+    "title": "Back in the Saddle",
+    "grandparentKey": "/library/metadata/5622",
+    "parentKey": "/library/metadata/5623",
+    "grandparentTitle": "Grey's Anatomy",
+    "parentTitle": "Season 16",
+    "contentRating": "TV-14",
+    "summary": "The Grey Sloan doctors operate on a man who crashed into Maggie’s car as Owen, back from paternity leave, struggles with Tom’s new position. Outside the hospital, Meredith’s recent firing doesn’t stop her from diagnosing those around her. Plus, Richard and Alex start anew and it’s not easy. All the while, Jo readies herself to return to work, and Amelia has a new revelation in her relationship with Link.",
+    "index": 2,
+    "parentIndex": 16,
+    "lastViewedAt": 1570565810,
+    "year": 2019,
+    "thumb": "/library/metadata/5638/thumb/1570206523",
+    "art": "/library/metadata/5622/art/1570206523",
+    "grandparentThumb": "/library/metadata/5622/thumb/1570206523",
+    "grandparentArt": "/library/metadata/5622/art/1570206523",
+    "grandparentTheme": "/library/metadata/5622/theme/1570206523",
+    "originallyAvailableAt": "2019-10-03",
+    "addedAt": 1570206438,
+    "updatedAt": 1570206523,
+    "Director": [
+      {
+        "id": 33249,
+        "filter": "director=33249",
+        "tag": "Kevin McKidd"
+      }
+    ],
+    "Writer": [
+      {
+        "id": 33248,
+        "filter": "writer=33248",
+        "tag": "Meg Marinis"
+      }
+    ]
+  }
+}

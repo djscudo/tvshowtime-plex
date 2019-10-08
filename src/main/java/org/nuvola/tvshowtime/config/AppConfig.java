@@ -7,10 +7,10 @@ import org.springframework.web.client.RestTemplate;
 @Configuration
 @ComponentScan(basePackages = {"org.nuvola"})
 @SpringBootApplication
-class AppConfig {
+public class AppConfig {
 
     @Bean
-    public RestTemplate getRestTemplate(){
+    public RestTemplate getRestTemplate() {
         return new RestTemplate();
     }
 }

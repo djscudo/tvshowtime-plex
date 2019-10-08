@@ -32,7 +32,7 @@ There are two importants properties that needs to be configured correctly are :
 
 1. **nuvola.pms.path** this is the HTTP URL of your Plex Media Server, if you are going to run this application on the same server as PMS then the default provided value is good (no need to change it), if it is not the case then you need to put the correct URL for _example nuvola.pms.path = http://192.168.1.5:32400_
 2. **nuvola.pms.token** starting from Plex media server 1.1 a **token** is required, all web services calls are secured and need to be done with the **X-Plex-Token**, to find out the Plex Token for the user you want to configure with **tvshowtime-plex** this article will explain to you how : http://bit.ly/1PqlB1v
-3. **nuvola.tvshowtime.tokenFile** this is the complete file path where you want your OAuth authorisation token to be stored, if you want the token to be stored in the folder where the application is then you are good with the default value. It is used so that you dont always have to go through all frustrating steps of configuring you TVShowTime account with this application.
+3. **nuvola.tvshowtime.tokenStore** this is the complete file path where you want your OAuth authorisation token to be stored, if you want the token to be stored in the folder where the application is then you are good with the default value. It is used so that you dont always have to go through all frustrating steps of configuring you TVShowTime account with this application.
 
 ```
 # REQUIRED: nuvola.pms.path is the location of the http service exposed by Plex Media Server
@@ -46,7 +46,7 @@ nuvola.pms.token =
 
 # REQUIRED: Where do you wish to write the token used for authorizing access to
 # you TVShow Time account, the default value should be 'ok'
-nuvola.tvshowtime.tokenFile = session_token
+nuvola.tvshowtime.tokenStore = session_token
 
 # REQUIRED: Where do you wish to write the tvshowtime-plex log file.
 logging.path = /tmp/tvshowtimeplex

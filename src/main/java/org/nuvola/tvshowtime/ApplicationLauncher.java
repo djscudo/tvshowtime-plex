@@ -18,15 +18,12 @@
 
 package org.nuvola.tvshowtime;
 
+import org.nuvola.tvshowtime.service.TvTimeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.context.event.ApplicationReadyEvent;
-import org.springframework.context.event.EventListener;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
-@EnableScheduling
 public class ApplicationLauncher {
 
     @Autowired
@@ -34,11 +31,6 @@ public class ApplicationLauncher {
 
     public static void main(String[] args) {
         SpringApplication.run(ApplicationLauncher.class, args);
-    }
-
-    @EventListener(ApplicationReadyEvent.class)
-    public void init() throws Exception {
-        m_tvTimeService.init();
     }
 
 }

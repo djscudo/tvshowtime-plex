@@ -5,9 +5,9 @@ import java.nio.charset.StandardCharsets;
 import java.nio.file.*;
 import java.util.stream.Stream;
 
-class TestBase {
+public class TestBase {
 
-    static String readFile(String filePath) {
+    public static String readFile(String filePath) {
         Path resourceDirectory = Paths.get("src", "test", "resources");
         String absolutePath = resourceDirectory.toFile().getAbsolutePath();
 

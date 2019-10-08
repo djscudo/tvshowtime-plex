@@ -32,6 +32,7 @@ public class Account {
     private String defaultSubtitleLanguage;
     private Integer subtitleMode;
     private String thumb;
+    private String title;
 
     public String getKey() {
         return key;
@@ -97,12 +98,26 @@ public class Account {
         this.name = name;
     }
 
-    @JsonProperty("title")
     public String getTitle() {
-        return name;
+        return title;
     }
 
     public void setTitle(String title) {
-        this.name = title;
+        this.title = title;
+    }
+
+    @Override
+    public String toString() {
+        return "Account{" +
+                "id=" + id +
+                ", key='" + key + '\'' +
+                ", name='" + name + '\'' +
+                ", defaultAudioLanguage='" + defaultAudioLanguage + '\'' +
+                ", autoSelectAudio=" + autoSelectAudio +
+                ", defaultSubtitleLanguage='" + defaultSubtitleLanguage + '\'' +
+                ", subtitleMode=" + subtitleMode +
+                ", thumb='" + thumb + '\'' +
+                ", title='" + title + '\'' +
+                '}';
     }
 }

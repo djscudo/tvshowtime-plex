@@ -1,0 +1,515 @@
+{
+  "event": "media.stop",
+  "user": true,
+  "owner": true,
+  "Account": {
+    "id": 1,
+    "thumb": "https://plex.tv/users/1283461273478123/avatar?c=1234144441",
+    "title": "admin"
+  },
+  "Server": {
+    "title": "ServerPLEX",
+    "uuid": "23874218374b8cabac8b9c76fa75jfca76cfb234"
+  },
+  "Player": {
+    "local": true,
+    "publicAddress": "",
+    "title": "Chrome",
+    "uuid": "bj8oknu48hrz98w2fhey33yg"
+  },
+  "Metadata": {
+    "librarySectionType": "movie",
+    "ratingKey": "1070",
+    "key": "/library/metadata/1070",
+    "guid": "com.plexapp.agents.imdb://tt1298650?lang=it",
+    "librarySectionTitle": "Film",
+    "librarySectionID": 2,
+    "librarySectionKey": "/library/sections/2",
+    "studio": "Walt Disney Pictures",
+    "type": "movie",
+    "title": "Pirati dei Caraibi - Oltre i confini del mare",
+    "originalTitle": "Pirates of the Caribbean: On Stranger Tides",
+    "contentRating": "it/T",
+    "summary": "Capitan Jack Sparrow si ritrova coinvolto in un rocambolesco viaggio per raggiungere la leggendaria Fonte della Giovinezza quando una donna del suo passato lo costringe a salire a bordo della Queen Anne's Revenge, la nave del formidabile pirata Barbanera.",
+    "rating": 6.6,
+    "viewOffset": 1684000,
+    "lastViewedAt": 1570565798,
+    "year": 2011,
+    "tagline": "Vivi per sempre o muori provandoci",
+    "thumb": "/library/metadata/1070/thumb/1569528710",
+    "art": "/library/metadata/1070/art/1569528710",
+    "duration": 8460000,
+    "originallyAvailableAt": "2011-05-14",
+    "addedAt": 1331143795,
+    "updatedAt": 1569528710,
+    "primaryExtraKey": "/library/metadata/4610",
+    "ratingImage": "imdb://image.rating",
+    "Genre": [
+      {
+        "id": 41,
+        "filter": "genre=41",
+        "tag": "Action",
+        "count": 293
+      },
+      {
+        "id": 42,
+        "filter": "genre=42",
+        "tag": "Adventure",
+        "count": 197
+      },
+      {
+        "id": 869,
+        "filter": "genre=869",
+        "tag": "Fantasy",
+        "count": 126
+      }
+    ],
+    "Director": [
+      {
+        "id": 24908,
+        "filter": "director=24908",
+        "tag": "Rob Marshall",
+        "count": 2
+      }
+    ],
+    "Writer": [
+      {
+        "id": 6452,
+        "filter": "writer=6452",
+        "tag": "Ted Elliott",
+        "count": 5
+      },
+      {
+        "id": 6453,
+        "filter": "writer=6453",
+        "tag": "Terry Rossio",
+        "count": 6
+      }
+    ],
+    "Producer": [
+      {
+        "id": 10317,
+        "filter": "producer=10317",
+        "tag": "Jerry Bruckheimer",
+        "count": 7
+      }
+    ],
+    "Country": [
+      {
+        "id": 273,
+        "filter": "country=273",
+        "tag": "USA",
+        "count": 561
+      }
+    ],
+    "Role": [
+      {
+        "id": 1644,
+        "filter": "actor=1644",
+        "tag": "Johnny Depp",
+        "count": 18,
+        "role": "Captain Jack Sparrow",
+        "thumb": "http://image.tmdb.org/t/p/original/kbWValANhZI8rbWZXximXuMN4UN.jpg"
+      },
+      {
+        "id": 1918,
+        "filter": "actor=1918",
+        "tag": "Penélope Cruz",
+        "count": 7,
+        "role": "Angelica Teach",
+        "thumb": "http://image.tmdb.org/t/p/original/rZtaNUn9JjXdsB5ezxxACML1h06.jpg"
+      },
+      {
+        "id": 3633,
+        "filter": "actor=3633",
+        "tag": "Ian McShane",
+        "count": 9,
+        "role": "Captain Edward 'Blackbeard' Teach",
+        "thumb": "http://image.tmdb.org/t/p/original/pY9ud4BJwHekNiO4MMItPbgkdAy.jpg"
+      },
+      {
+        "id": 25374,
+        "filter": "actor=25374",
+        "tag": "Kevin McNally",
+        "count": 7,
+        "role": "Joshamee Gibbs",
+        "thumb": "http://image.tmdb.org/t/p/original/fIJF3TZn8ckHkcl44oX77GvPv9e.jpg"
+      },
+      {
+        "id": 7108,
+        "filter": "actor=7108",
+        "tag": "Geoffrey Rush",
+        "count": 7,
+        "role": "Captain Hector Barbossa",
+        "thumb": "http://image.tmdb.org/t/p/original/npXFjaFQzBNroCEPllGPTZ5IisA.jpg"
+      },
+      {
+        "id": 16586,
+        "filter": "actor=16586",
+        "tag": "Sam Claflin",
+        "count": 6,
+        "role": "Philip Swift",
+        "thumb": "http://image.tmdb.org/t/p/original/8DVC5uMFX00G0sLIE0bBaF6nC3U.jpg"
+      },
+      {
+        "id": 12543,
+        "filter": "actor=12543",
+        "tag": "Astrid Bergès-Frisbey",
+        "count": 3,
+        "role": "Syrena",
+        "thumb": "http://image.tmdb.org/t/p/original/rMpf4DQ7rlQTKwrJFpYgefNI5j3.jpg"
+      },
+      {
+        "id": 24758,
+        "filter": "actor=24758",
+        "tag": "Stephen Graham",
+        "count": 4,
+        "role": "Scrum",
+        "thumb": "http://image.tmdb.org/t/p/original/rmcuf3aYgINJWp0aWNA2uNdxwUJ.jpg"
+      },
+      {
+        "id": 8177,
+        "filter": "actor=8177",
+        "tag": "Greg Ellis",
+        "count": 6,
+        "role": "Lieutenant Theodore Groves",
+        "thumb": "http://image.tmdb.org/t/p/original/qQvPe0TO5yYJCSNIM8KRf55F5cw.jpg"
+      },
+      {
+        "id": 27707,
+        "filter": "actor=27707",
+        "tag": "Damian O'Hare",
+        "count": 2,
+        "role": "Lieutenant Gillette",
+        "thumb": "http://image.tmdb.org/t/p/original/fKpaczsKihsuEPWInNENp1WVtwg.jpg"
+      },
+      {
+        "id": 25803,
+        "filter": "actor=25803",
+        "tag": "Óscar Jaenada",
+        "count": 2,
+        "role": "The Spaniard",
+        "thumb": "http://image.tmdb.org/t/p/original/aOv6MLlApilNn21kyJhs66Lx3Ac.jpg"
+      },
+      {
+        "id": 11439,
+        "filter": "actor=11439",
+        "tag": "Richard Griffiths",
+        "count": 10,
+        "role": "King George II",
+        "thumb": "http://image.tmdb.org/t/p/original/EuV0DyZ5nBh3ZAUWjEqdWlt8sK.jpg"
+      },
+      {
+        "id": 27643,
+        "filter": "actor=27643",
+        "tag": "Keith Richards",
+        "count": 2,
+        "role": "Captain Teague Sparrow",
+        "thumb": "http://image.tmdb.org/t/p/original/t1oa5UsJMmrhNqCIks4jQnAYSQT.jpg"
+      },
+      {
+        "id": 24072,
+        "filter": "actor=24072",
+        "tag": "Gemma Ward",
+        "count": 3,
+        "role": "Tamara",
+        "thumb": "http://image.tmdb.org/t/p/original/lShx6lREtmUAulV57Vm7zlE8H5Z.jpg"
+      },
+      {
+        "id": 1907,
+        "filter": "actor=1907",
+        "tag": "Judi Dench",
+        "count": 4,
+        "role": "High Society Lady",
+        "thumb": "http://image.tmdb.org/t/p/original/2is9RvJ3BQAku2EtCmyk5EZoxzT.jpg"
+      },
+      {
+        "id": 23344,
+        "filter": "actor=23344",
+        "tag": "Ian Mercer",
+        "count": 2,
+        "role": "Quartermaster",
+        "thumb": "http://image.tmdb.org/t/p/original/hVMIHx8L3ocPlBKd1JyTSNUsl1A.jpg"
+      },
+      {
+        "id": 27711,
+        "filter": "actor=27711",
+        "tag": "Robbie Kay",
+        "role": "Cabin Boy",
+        "thumb": "http://image.tmdb.org/t/p/original/14IU4Im1RDuPQyKFpWbJchyXi2s.jpg"
+      },
+      {
+        "id": 1066,
+        "filter": "actor=1066",
+        "tag": "Christopher Fairbank",
+        "count": 5,
+        "role": "Ezekiel",
+        "thumb": "http://image.tmdb.org/t/p/original/OtvVhW5zzq2J9eiLC0R1H9sZb2.jpg"
+      },
+      {
+        "id": 5243,
+        "filter": "actor=5243",
+        "tag": "Yuki Matsuzaki",
+        "count": 2,
+        "role": "Garheng",
+        "thumb": "http://image.tmdb.org/t/p/original/2wpDHE2XW805ql9LMgYxhbJto1h.jpg"
+      },
+      {
+        "id": 27715,
+        "filter": "actor=27715",
+        "tag": "Steve Evets",
+        "count": 2,
+        "role": "Purser",
+        "thumb": "http://image.tmdb.org/t/p/original/zLSynCYJI8UgLuW2zR7ScDFK5mU.jpg"
+      },
+      {
+        "id": 2811,
+        "filter": "actor=2811",
+        "tag": "Bronson Webb",
+        "count": 6,
+        "role": "Cook",
+        "thumb": "http://image.tmdb.org/t/p/original/oBADYTZzjZI2wAhgnf0ZeKy9q3T.jpg"
+      },
+      {
+        "id": 14497,
+        "filter": "actor=14497",
+        "tag": "Derek Mears",
+        "count": 4,
+        "role": "Master-at-Arms",
+        "thumb": "http://image.tmdb.org/t/p/original/4lu9xQHczBCEq5XevOM225ALfOO.jpg"
+      },
+      {
+        "id": 1071,
+        "filter": "actor=1071",
+        "tag": "Deobia Oparei",
+        "count": 5,
+        "role": "Gunner",
+        "thumb": "http://image.tmdb.org/t/p/original/w4gidsff3WG5WjsSu9spcHxh2uE.jpg"
+      },
+      {
+        "id": 27713,
+        "filter": "actor=27713",
+        "tag": "Sebastian Armesto",
+        "count": 2,
+        "role": "King Ferdinand of the Spanish Empire",
+        "thumb": "http://image.tmdb.org/t/p/original/oNflfULqkire4ZPHIrWEdNdqjBU.jpg"
+      },
+      {
+        "id": 17439,
+        "filter": "actor=17439",
+        "tag": "Anton Lesser",
+        "count": 2,
+        "role": "John Carteret",
+        "thumb": "http://image.tmdb.org/t/p/original/rKDn8ZHuIxl4Z3LLbUxvHdCOk0U.jpg"
+      },
+      {
+        "id": 14427,
+        "filter": "actor=14427",
+        "tag": "Roger Allam",
+        "count": 3,
+        "role": "Prime Minister Henry Pelham",
+        "thumb": "http://image.tmdb.org/t/p/original/59NNuOq2BUZPVVcjpzVBmj61Y77.jpg"
+      },
+      {
+        "id": 27709,
+        "filter": "actor=27709",
+        "tag": "Paul Bazely",
+        "role": "Salaman",
+        "thumb": "http://image.tmdb.org/t/p/original/t0zvUJWzMCOqpDfQRKbeTTkhqt3.jpg"
+      },
+      {
+        "id": 27710,
+        "filter": "actor=27710",
+        "tag": "Richard Thomson",
+        "role": "Derrick",
+        "thumb": "http://image.tmdb.org/t/p/original/iRMxQ1SULqw3RivNTd5Lf8Mvgph.jpg"
+      },
+      {
+        "id": 11473,
+        "filter": "actor=11473",
+        "tag": "Danny Le Boyer",
+        "count": 3,
+        "role": "Yeoman",
+        "thumb": "http://image.tmdb.org/t/p/original/m1lAUBPlYHCWwsCggyYCha0MMl1.jpg"
+      },
+      {
+        "id": 27705,
+        "filter": "actor=27705",
+        "tag": "Alan J. Utley-Moore",
+        "role": "Justice Smith"
+      },
+      {
+        "id": 27708,
+        "filter": "actor=27708",
+        "tag": "Luke Roberts",
+        "role": "Captain of the Guard",
+        "thumb": "http://image.tmdb.org/t/p/original/a1cEzZWQ1afUJIu3alfp4zjv2Iy.jpg"
+      },
+      {
+        "id": 15210,
+        "filter": "actor=15210",
+        "tag": "Emilia Jones",
+        "count": 3,
+        "role": "English Girl",
+        "thumb": "http://image.tmdb.org/t/p/original/sF1ei5jaH7CQTEp6mpA3n7RJOJX.jpg"
+      },
+      {
+        "id": 27712,
+        "filter": "actor=27712",
+        "tag": "Sanya Hughes",
+        "role": "Mermaid"
+      },
+      {
+        "id": 20953,
+        "filter": "actor=20953",
+        "tag": "Daniel Ings",
+        "count": 2,
+        "role": "Guard",
+        "thumb": "http://image.tmdb.org/t/p/original/2RP3wRzlPp3BcagiozW55ZOl3Bb.jpg"
+      },
+      {
+        "id": 20214,
+        "filter": "actor=20214",
+        "tag": "LeJon",
+        "count": 3,
+        "role": "Queen Anne's Pirate (uncredited)",
+        "thumb": "http://image.tmdb.org/t/p/original/9V0WQsy3aj6I8iTW3eyLy3cpYpL.jpg"
+      },
+      {
+        "id": 27714,
+        "filter": "actor=27714",
+        "tag": "Siegfried Peters",
+        "role": "British Sailor (uncredited)"
+      },
+      {
+        "id": 27706,
+        "filter": "actor=27706",
+        "tag": "Bobby Holland Hanton",
+        "role": "English Guard (uncredited)",
+        "thumb": "http://image.tmdb.org/t/p/original/qoAkLDUn43DhnyKv5uf0UGXJzpz.jpg"
+      }
+    ],
+    "Similar": [
+      {
+        "id": 8201,
+        "filter": "similar=8201",
+        "tag": "Pirates of the Caribbean: At World's End",
+        "count": 24
+      },
+      {
+        "id": 8202,
+        "filter": "similar=8202",
+        "tag": "Pirates of the Caribbean: Dead Man's Chest",
+        "count": 22
+      },
+      {
+        "id": 11597,
+        "filter": "similar=11597",
+        "tag": "Pirates of the Caribbean: The Curse of the Black Pearl",
+        "count": 15
+      },
+      {
+        "id": 8223,
+        "filter": "similar=8223",
+        "tag": "Sherlock Holmes: A Game of Shadows",
+        "count": 6
+      },
+      {
+        "id": 294,
+        "filter": "similar=294",
+        "tag": "Transformers: Dark of the Moon",
+        "count": 19
+      },
+      {
+        "id": 280,
+        "filter": "similar=280",
+        "tag": "Fantastic Four",
+        "count": 46
+      },
+      {
+        "id": 1736,
+        "filter": "similar=1736",
+        "tag": "Harry Potter and the Deathly Hallows: Part 1",
+        "count": 17
+      },
+      {
+        "id": 281,
+        "filter": "similar=281",
+        "tag": "Fantastic Four: Rise of the Silver Surfer",
+        "count": 35
+      },
+      {
+        "id": 5196,
+        "filter": "similar=5196",
+        "tag": "X-Men: The Last Stand",
+        "count": 26
+      },
+      {
+        "id": 2164,
+        "filter": "similar=2164",
+        "tag": "Spider-Man 3",
+        "count": 34
+      },
+      {
+        "id": 1737,
+        "filter": "similar=1737",
+        "tag": "Harry Potter and the Deathly Hallows: Part 2",
+        "count": 12
+      },
+      {
+        "id": 286,
+        "filter": "similar=286",
+        "tag": "Men in Black 3",
+        "count": 4
+      },
+      {
+        "id": 1739,
+        "filter": "similar=1739",
+        "tag": "Harry Potter and the Half-Blood Prince",
+        "count": 16
+      },
+      {
+        "id": 5195,
+        "filter": "similar=5195",
+        "tag": "X-Men Origins: Wolverine",
+        "count": 23
+      },
+      {
+        "id": 7780,
+        "filter": "similar=7780",
+        "tag": "Ice Age: The Meltdown",
+        "count": 21
+      },
+      {
+        "id": 1748,
+        "filter": "similar=1748",
+        "tag": "The Chronicles of Narnia: The Lion, the Witch and the Wardrobe",
+        "count": 31
+      },
+      {
+        "id": 11595,
+        "filter": "similar=11595",
+        "tag": "Ice Age",
+        "count": 17
+      },
+      {
+        "id": 6269,
+        "filter": "similar=6269",
+        "tag": "Men in Black II",
+        "count": 16
+      },
+      {
+        "id": 1740,
+        "filter": "similar=1740",
+        "tag": "Harry Potter and the Order of the Phoenix",
+        "count": 14
+      },
+      {
+        "id": 2934,
+        "filter": "similar=2934",
+        "tag": "Sherlock Holmes",
+        "count": 8
+      }
+    ]
+  }
+}
